@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body bgcolor="gray">
+    
+    <!-- Header -->
+    <header>
+        <h1 style="font-style:oblique; background-color: crimson;">Contact Me</h1>
+    </header>
+    <hr>
+    
+    <!-- Links that connect all pages -->
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Me</a></li>
+    
+    <!--Main section-->
+    <main>
+        <section>
+            <h2 style="font-weight:lighter; background-color: crimson;">Contact Form</h2>
+            
+            <!-- Contact form to fill with name, email and message -->
+            <form action="mailto:your@email.com" method="post" enctype="text/plain">
+                
+                <!--Name  section-->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                
+                <!--Email section-->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                
+                <!--Message section-->
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <hr>
+    
+    <!--Footer section-->
+    <footer>
+        <p style="font-style: oblique;">&copy; 2023 Relja Eskic's Website</p>
+    </footer>
+</body>
+</html>
